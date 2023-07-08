@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+    </style>
+
+    <title>Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.svg" alt="logo.svg" height="30px" />
+      <nav>
+        <a href="/about">About</a> <a href="/services">Services</a>
+        <a href="/projects">Projects</a> <a href="/contacts">Contact</a>
+      </nav>
+      <img
+        src="images/icon-hamburger.svg"
+        alt="menu-icon"
+        id="menu-icon"
+        height="20px"
+      />
+    </header>
+    <nav id="mobile-menu">
+      <a href="/about">About</a> <a href="/services">Services</a>
+      <a href="/projects">Projects</a> <a href="/contacts">Contact</a>
+    </nav>
+    <main>
+      <section class="hero">
+        <h1>We are creatives</h1>
+        <img
+          src="images/icon-arrow-down.svg"
+          alt="icon-arrow-down"
+          height="120px"
+        />
+      </section>
+      <section>
+        <article>
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <button>Learn more</button>
+        </article>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-transform.jpg"
+          />
+          <img src="images/mobile/image-transform.jpg" alt="egg" />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-stand-out.jpg"
+          />
+          <img src="images/mobile/image-stand-out.jpg" alt="glass" />
+        </picture>
+        <article>
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <button>Learn more</button>
+        </article>
+        <article>
+          <h3>Graphic design</h3>
+          <p>
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </article>
+        <article>
+          <h3>Photography</h3>
+          <p>
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </article>
+      </section>
+      <section class="testimonial">
+        <h2>Client testimonials</h2>
+        <section>
+          <img height="70px" src="images/image-emily.jpg" alt="image-emily" />
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3>Emily R.</h3>
+          <h4>Marketing Director</h4>
+        </section>
+        <section>
+          <img height="70px" src="images/image-thomas.jpg" alt="image-thomas" />
+          <p>
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3>Thomas S.</h3>
+          <h4>Chief Operating Officer</h4>
+        </section>
+        <section>
+          <img height="70px" src="images/image-jennie.jpg" alt="image-jennie" />
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3>Jennie F.</h3>
+          <h4>Business Owner</h4>
+        </section>
+      </section>
+      <section id="images">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-gallery-milkbottles.jpg"
+          />
+          <img
+            src="images/mobile/image-gallery-milkbottles.jpg"
+            alt="image-gallery-milkbottles.jpg"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-gallery-orange.jpg"
+          />
+          <img
+            src="images/mobile/image-gallery-orange.jpg"
+            alt="image-gallery-orange.jpg"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-gallery-cone.jpg"
+          />
+          <img
+            src="images/mobile/image-gallery-cone.jpg"
+            alt="image-gallery-cone"
+          />
+        </picture>
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="images/desktop/image-gallery-sugarcubes.jpg"
+          />
+          <img
+            src="images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="image-gallery-sugar-cubes"
+          />
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <img src="images/logo.svg" alt="logo" height="30px" width="120px" />
+      <section id="links">
+        <a href="/about">About</a> <a href="/services">Services</a>
+        <a href="/projects">Projects</a> <a href="/contacts">Contact</a>
+      </section>
+      <section id="social">
+        <img
+          src="images/icon-facebook.svg"
+          alt="icon-facebook"
+          height="25px"
+        /><img
+          src="images/icon-instagram.svg"
+          alt="icon-instagram"
+          height="25px"
+        /><img
+          src="images/icon-twitter.svg"
+          alt="icon-twitter"
+          height="25px"
+        /><img
+          src="images/icon-pinterest.svg"
+          alt="icon-pinterest"
+          height="25px"
+        />
+      </section>
+      <script src="script.js"></script>
+    </footer>
+  </body>
+</html>
